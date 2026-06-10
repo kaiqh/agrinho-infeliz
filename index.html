@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Agrinho 2026</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre o Tema</a></li>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-toggle" aria-label="Alternar modo escuro">🌓 Modo</button>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h1>Agro forte, futuro sustentável</h1>
+                <p>O equilíbrio perfeito entre a produtividade no campo e a preservação do meio ambiente para as próximas gerações.</p>
+                <a href="#quiz" class="btn-cta">Testar meus Conhecimentos</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="section-container">
+            <h2>Sobre o Tema</h2>
+            <div class="about-content">
+                <p>O <strong>Agrinho 2026</strong> nos convida a refletir sobre o papel vital da agricultura moderna. Produzir alimentos em larga escala de forma eficiente não precisa — e não deve — significar a destruição dos nossos recursos naturais. O segredo para um futuro próspero está no equilíbrio ecológico, onde a tecnologia e o respeito à natureza caminham lado a lado.</p>
+            </div>
+        </section>
+
+        <section id="pilares" class="section-container bg-alt">
+            <h2>Pilares da Sustentabilidade</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Tecnologia no Campo</h3>
+                    <p>Uso de drones, sensores e inteligência artificial para otimizar o plantio, reduzir o desperdício de insumos e monitorar a saúde da lavoura em tempo real.</p>
+                </div>
+                <div class="card">
+                    <h3>Preservação de Recursos</h3>
+                    <p>Práticas de manejo inteligente do solo, rotação de culturas e sistemas de irrigação gota a gota que evitam o esgotamento da terra e poupam água doce.</p>
+                </div>
+                <div class="card">
+                    <h3>Energia Renovável</h3>
+                    <p>Implementação de painéis solares e biomassa nas propriedades rurais, transformando resíduos orgânicos em energia limpa e autossuficiente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="section-container">
+            <h2>Quiz Interativo</h2>
+            <p class="quiz-intro">Será que você sabe tudo sobre o agro sustentável? Descubra agora!</p>
+            <div class="quiz-container">
+                <div id="quiz-window">
+                    </div>
+                <div id="quiz-result" class="hidden">
+                    <h3>Resultado Final</h3>
+                    <p id="result-text"></p>
+                    <button id="btn-restart" class="btn-cta">Refazer Quiz</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Projeto Escolar Agrinho. Todos os direitos reservados.</p>
+        <p class="footer-tagline">Cultivando conhecimento, colhendo um amanhã melhor.</p>
+        <div class="social-mock">
+            <span>#AgroSustentavel</span> | <span>#Agrinho2026</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
